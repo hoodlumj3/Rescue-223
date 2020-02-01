@@ -1,0 +1,2 @@
+tasm /ml vgagfxhd.asm
+
