@@ -11,8 +11,8 @@ Hi,
    get around to removing all undocumented features from the game, but 
    for now I shall keep developing my utilities on the AMIGA and IBM.
    
-   This Game was inspired through Phill Whillier's Game "Freddy".
-   Rescue only works on VGA machines.
+   This Game was inspired by Fort Apocalypse (C64) and ChopLifter (Arcade).
+   Rescue only works in VGA mode machines.
    Was entirely written in Turbo C 2.0 with the screen handling functions
    written in assembley code, to be as fast as I could get them, although 
    I have found a way of getting them much faster than they currently are.
@@ -20,7 +20,8 @@ Hi,
 *****************************************************************************
                        
                        Instructions for "Rescue 223"
-    
+
+    [ Original Install Instructions from Floppy Disc ]
     - INSTALLATION -
     To install Rescue on hardrive change to a drive (type "a:") and type 
         "Install" <enter> at the DOS prompt.
@@ -28,7 +29,21 @@ Hi,
     - EXECUTION -
     To run Rescue cd into the rescue directory on harddrive or floppy 
     and type 
-        "rescue" <enter> at the DOS prompt.
+        "vga" <enter> at the DOS prompt.
+
+    [ GitHub Install Instructions ]
+	- INSTALLATION -
+	Download and Install DOSBox 0.74 or later
+	Download Zip of rescue-223 repository.
+	Extract zip to a short file path on to your HDD C:\ or D:\  i.e. C:\Games\RES\Rescue-223-master
+	Run DOSBox
+	Run these DOSBox commands
+		mount c C:\Games\RES
+		c:
+		vga
+	
+
+	[ Story ]
 
     After a battle of the masses, Federation 223 became defeated by these
     small globes that just hover in a stationary position and fire in 
